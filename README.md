@@ -1,12 +1,3 @@
-# IMT-Android
+# IMT-Henri_Potier
 
-School project to practice mobile application develoment for Android using Kotlin
-
-Done:
-* RecyclerView implementation
-* REST API call using Retrofit
-* Fragment and passing state
-* Orientation adaptation
-
-Not implemented:
-* Tests
+Projet d'application dans le cadre du cours d'Android. Utilisation de la RecyclerView, de Retrofit, Timber, Picasso et des Bundle.
