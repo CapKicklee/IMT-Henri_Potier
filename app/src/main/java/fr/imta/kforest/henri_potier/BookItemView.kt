@@ -10,11 +10,11 @@ class BookItemView @JvmOverloads constructor(context: Context, attrs: AttributeS
         LinearLayout(context, attrs, defStyleAttr) {
 
     var titleView: TextView? = null
-    var priceView: TextView? = null
+    var imageView: ImageView? = null
 
     override fun onFinishInflate() {
         super.onFinishInflate()
-        titleView = findViewById(R.id.book_title)
-        priceView = findViewById(R.id.book_price)
+        titleView = findViewById(R.id.book_list_title)
+        imageView = findViewById(R.id.book_list_cover)
     }
 }
